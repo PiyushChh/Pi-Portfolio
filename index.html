@@ -2,21 +2,25 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
         <title>Pi's Portfolio</title>
         <link rel="shortcut icon" type="image/png" href="./Images/fervi.png"/>
-        <link rel="stylesheet" href="index1.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Source+Sans+Pro:ital,wght@1,200&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="./body_index.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <script src="https://kit.fontawesome.com/21ead81141.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        
-  
         <header>
         <nav id="nav" class="navbar navbar-dark bg-dark navbar-expand-md">
             <div class="container-fluid">
             <ul class="navbar-nav me-auto">
             <i class="far fa-address-card fa-2x" ></i>
-            <a class="navbar-brand" href="#">Pi's Portfolio</a>
+            <a class="navbar-brand" href="#"> Pi's Portfolio</a>
             </ul>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,7 +28,7 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="./profile.html">Profile</a>
+                        <a class="nav-link active" href="./profile.html">Profile</a>
                       </li>
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="./contact.html">Contact Us </a>
@@ -38,32 +42,94 @@
             </div>
         </nav>
         </header>
-        <section class="sec">
-          <div class="textContainer">
-            <p>Who Am I?</p>
-            <br>
-            <br>
-            
-           <button class="pro">
-             <a href="./profile.html">Profile at a glance</a></button>
-          </div>
-          
-          <div class="container">
-          
-          </div>
+       <!--Intro-->
+        <section class="intro" id="home">
+        <h1 class="section_title section_title_intro">
+          Hi,I am <strong>Piyush Chhawachharia</strong>
+        </h1>
+        <p class="section_subtitle section_subtitle_intro">
+          Software Developer
+        </p>
+        <img src="./Images/sunrise1.jpeg" alt="My Picture" class="intro_img">
         </section>
-        <div class="container"><span class="edu">Educational Background</span>
+        <!-- 2nd part-->
+        <section class="my-jobs" id="jobs">
+          <h2 class="section_title section_title_jobs">What I do?</h2>
+          <div class="jobs">
+            <div class="job">
+              <h3>Web Developer</h3>
+              <p> I'm trained in HTML,CSS and Js for quick and excellent deployement of Websites.</p>
+            </div>
+            <div class="job">
+              <h3>Software developer</h3>
+              <p>I have expertise in Java and the concepts of OOP's.</p>
+            </div>
+            <div class="job">
+              <h3>DataBase Management</h3>
+              <p>I'm trained in SQL for easy management of Databases</p>
+            </div>
+            </div>
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        <!--3rd part-->
+        <section class="about-me" id="about">
+          <h2 class="section_title section_title_about">Who am I?</h2>
+          <p class="section_subtitle section_subtitle_about"></p>
+
+          <div class="about-me_body">
+            <p></p>
+            <p></p>
+          </div>
+          <img src="" alt="Piyush chlling Out">
+        </section>
+        <!--4th part--->
+        <section class="my-work" id="work">
+          <h2 class="section_title"></h2>
+          <p class="section_subtitle"></p>
+
+        <div class="port">
+          <a href="" class="port_item">
+            <img src="" alt="" class="port_img">
+          </a>
+
+          <a href="" class="port_item">
+            <img src="" alt="" class="port_img">
+          </a>
+
+          <a href="" class="port_item">
+            <img src="" alt="" class="port_img">
+          </a>
+
+          <a href="" class="port_item">
+            <img src="" alt="" class="port_img">
+          </a>
+          
+          <a href="" class="port_item">
+            <img src="" alt="" class="port_img">
+          </a>
         </div>
+        </section>  
+        
+        
+          
+          
         
         <footer>
+          <ul class="social_list">
+            <li class="socail_list_item"><a class="social_list_link" href="https://github.com">A</a></li>
+            <li class="socail_list_item"><a class="social_list_link" href="https://github.com">B</a></li>
+            <li class="socail_list_item"><a class="social_list_link" href="https://github.com">C</a></li>
+            <li class="socail_list_item"><a class="social_list_link" href="https://github.com">D</a></li>
+          </ul>
           <span class="f1">
           <br>
           <br>
        
-        </span>
-        <span class="f2">Copyright[pi]-Theme by Piyush</span>
-        
-        </footer>
+          </span>
+          <span class="f2">Copyright[pi]-Theme by Piyush</span>
+          <br>
+
+          </footer>
 
          
     

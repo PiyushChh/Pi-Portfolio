@@ -7,7 +7,30 @@
 .area{
     width:500px;
 }
+a{  
+    
+    padding:6px;
+    text-decoration:none !important;
+    color: white !important;
+    background-color: var(--dark);
+}
+a:hover{
+    background-color:white;
+    color:black !important;
+    
+}
+a .navbar-brand{
+    font-family: RoadTest;
+    color:#000000;
+}
+#navbar-nav{
+    text-align: right;
+}
 
+i{ 
+    padding-top:2px;
+    color: white;
+}
 .social{
     padding-bottom:20px;
 }
