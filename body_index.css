@@ -33,12 +33,15 @@ a .navbar-brand{
     
 }
 header{
+    
     position:sticky;
     top:0;
 }
 #navbar-nav{
     text-align: right;
+    
 }
+
 
 i{ 
     padding-top:2px;
@@ -252,6 +255,7 @@ h2{
  .port{
      display:grid;
      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+     z-index:1;
 
  }
  .port_item{
@@ -273,13 +277,13 @@ h2{
  }
  .port_item:focus{
      position:relative;
-     z-index:2;
+     
  }
  .port_img:hover,.port_item:focus .port_img{
      cursor: pointer;
-     
      transform: scale(1.1);
      opacity:1.75;
+     
  }
  footer{
      text-align:center;
