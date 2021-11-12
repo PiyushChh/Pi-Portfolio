@@ -1,3 +1,34 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@PiyushChh 
+PiyushChh
+/
+Pi-Portfolio
+Public
+1
+00
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Pi-Portfolio/CSS/body_index.css
+
+Piyush V1.0 Prepared
+Latest commit 242dd1f yesterday
+ History
+ 0 contributors
+312 lines (278 sloc)  5.04 KB
+   
 *,
 *::before,
 *::after{
@@ -147,7 +178,7 @@ h2{
 .section_title_jobs{
     color:#16e0bd;
     position:relative;
-    
+    font-size:var(--fs-h2);
 
 }
 .section_title_jobs::after{
@@ -196,10 +227,13 @@ h2{
     background-image: url(./Images/black.jpg);
     background-size: cover;
     text-align:center;
+    border-top: 1px solid #16e0bd;
 }
 .section_title_about{
     color:#16e0bd;
     position:relative;
+    font-size:var(--fs-h2);
+
     
 
 }
@@ -260,7 +294,7 @@ h2{
  }
  .achievements{
      
-     background-color: black;
+    
      width:100%;
      color:#16e0bd;
      font-size:50px;
@@ -273,7 +307,7 @@ h2{
  }
  .port_item:focus{
      position:relative;
-     z-index:2;
+     z-index:-2;
  }
  .port_img:hover,.port_item:focus .port_img{
      cursor: pointer;
@@ -310,3 +344,4 @@ h2{
  .f2{
      color:white;
  }
+out
